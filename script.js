@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  let passwordlength = 5
+  let passwordlength = 12
     function generatePassword(){
       const chars = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ123456789!@#$%¨&*()[]"
       

@@ -4,16 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <Script src="script.js"></Script>
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Password Generator</title>
 </head>
 <body>
-  <h1>Gerador de Senha</h1>
-  <p>Utilize o nosso gerador online para criar uma senha forte e segura</p>
-  <input type="text" name="password" id="password">
 
-  <input type="range" name="password-length" id="password-length" value="5" min="4" max="64">
+  <main>
+    <section class="hero">
+      <h1 class="title">Gerador de Senha</h1>
+      <p class="sub-title">Utilize o nosso gerador online para criar uma senha forte e segura</p>
+    </section>
 
-  <button>Copiar Senha</button>
-  
+    <section class="box">
+      <div class="password">
+        <div class="text">
+          <input type="text" name="password" id="password">
+        </div>
+        <div class="actions">
+          <button id="copy2">C</button>
+          <button id="reset">R</button>
+        </div>
+      </div>
+    </section>
+    
+    <input type="text" name="password" id="password">
+
+    <input type="range" name="password-length" id="password-length" value="5" min="4" max="64">
+
+   <button id="copy">Copiar Senha</button>
+  </main>
 </body>
 </html>

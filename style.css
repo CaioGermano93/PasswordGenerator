@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Inter:wght@400;600&display=swap');
+
+body {
+  background-color: #f8fafd;
+  font-family: 'Inter', sans-serif;
+  color: #252525;
+  padding: 2rem;
+}
+
+main{
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.hero{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.hero .title{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5 rem;
+}
+
+.hero .sub-title{
+  font-size: 1.125rem;
+  color: #828282;
+}
+
+.box{
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(132, 148, 165, 0.1);
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.password{
+  display: flex;
+}
+
+.password .text{
+  flex:1;
+}
+
+.password .text input{
+   font-family: "Inconsolata", serif;
+   font-size: 3rem;
+   border: none;
+   outline: none;
+   cursor: default;
+   height: 52px;
+   width: 100%;
+   transition: all 0.2;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#copy{
+  color: white;
+  background-color: rgb(211, 11, 211);
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+}
+#copy:hover{
+  background-color: black;
+  transition: 0.50s;
+  cursor: pointer;
+}
+

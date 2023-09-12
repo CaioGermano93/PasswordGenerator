@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   const inputEl = document.querySelector("#password")
-  let passwordlength = 12
+  let passwordlength = 16
     function generatePassword(){
       const chars = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ123456789!@#$%¨&*()[]"
       
@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
       generatePassword()
     })
 
-    const copyButtonEl = document.querySelector("#copy")
-    copyButtonEl.addEventListener('click', copy)
-    generatePassword()
+     document.querySelector("#copy-1").addEventListener('click', copy)
+     document.querySelector("#copy-2").addEventListener('click', copy)
+     
+     generatePassword()
 });
